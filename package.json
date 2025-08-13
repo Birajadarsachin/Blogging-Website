@@ -1,0 +1,32 @@
+{
+  "name": "blogify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Birajadarsachin/Blogify.git"
+  },
+  "author": "Sachin Birajadar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Birajadarsachin/Blogify/issues"
+  },
+  "homepage": "https://github.com/Birajadarsachin/Blogify#readme",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
